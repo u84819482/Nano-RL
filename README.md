@@ -2,10 +2,10 @@ Minimal implemention of tabular TD control using Q-Learning, SARSA, and Expected
 
 The TD control algorithms are based on Bellman equations. SARSA and Expected SARSA use a sample-based version of the Bellman equation and learn q_pi. Q-Learning uses the Bellman optimality equation and it learns q*. The three learning algorithms are shown below, by highlighting their targets.
 
-<img src="https://github.com/user-attachments/assets/77eb6b3b-21d9-46f8-aaf0-960e7a0982c2" alt="TD_control_algorithms" width="500"/>
+<img src="https://github.com/user-attachments/assets/77eb6b3b-21d9-46f8-aaf0-960e7a0982c2" alt="TD_control_algorithms" width="400"/>
 
-MAZE dimensions can be varied, as well as its cell content: standard 'Blocks' in black, 'Holes' in red with nominally high penalty, and 'Food' in green with nominally high reward). As an example, a 10x15 MAZE with B/H/F fractions of (0.3, 0.1, 0.1) looks like this:  
-<img src="https://github.com/user-attachments/assets/9d87a18a-2e9a-4e4e-a3de-cf368c643f46" alt="Maze" width="500"/>
+MAZE dimensions can be varied, as well as its cell content: standard 'Blocks' in black, 'Holes' in red with nominally high penalty, and 'Food' in green with nominally high reward). As an example, a 10x15 MAZE with B/H/F fractions of (0.3, 0.1, 0.1) is shown as below. The cell placements can be randomly varied while keeping the same fractions.  
+<img src="https://github.com/user-attachments/assets/9d87a18a-2e9a-4e4e-a3de-cf368c643f46" alt="Maze" width="250"/>
 
 
 This environment offers an opportunity to compare the three TD methods across a vast design space as a function of reward assignments,   
