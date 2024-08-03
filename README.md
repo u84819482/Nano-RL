@@ -20,14 +20,12 @@ To assist such investigations, the provided code offers several visualizations, 
 <br> Agent's trajectory for a specific episode before and after training: 
 
 <p align="center">
-<img src="https://github.com/user-attachments/assets/74cf3288-c9c0-41ef-8faa-7a24949e851d" alt="Example_trajectory" width="500"/>
+<img src="https://github.com/user-attachments/assets/6c02f083-1098-4114-842e-9337ad6dbc37" alt="Example_trajectory" width="500"/>
 
 <br> Animation of Agent's moves for a specific episode before and after training: 
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/fe5c4af1-22a0-4401-b93c-9d433c33f279" alt="Expected SARSA_last_exp_episode_1" width="250" style="margin-right: 100">
-  <img src="https://github.com/user-attachments/assets/27cd18fa-23d8-420e-a39f-62889091f29c" alt="Expected SARSA_last_exp_episode_30" width="250">
+  <img src="https://github.com/user-attachments/assets/920d4330-ebeb-44e1-8cc8-751ddc0eaadd" alt="Expected SARSA_last_exp_episode_1" width="250" style="margin-right: 500">
+  <img src="https://github.com/user-attachments/assets/64b47ab3-e186-4236-a4ea-8c6c955ecb87" alt="Expected SARSA_last_exp_episode_30" width="250">
 </p>
-
-
 
