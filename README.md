@@ -10,7 +10,7 @@ The TD control algorithms are based on Bellman equations. SARSA and Expected SAR
 <p align="center">
 <img src="https://github.com/user-attachments/assets/9d87a18a-2e9a-4e4e-a3de-cf368c643f46" alt="Maze" width="350"/>
 
-<br>This MAZE environment offers an opportunity to compare the three TD methods across a vast design space as a function of reward assignments, cell fractions, epsilon, gamma, and alpha. When the impact of 'Holes' and 'Food' is low either due to their low fraction or low absolute reward, the three methods behave comparably. Otherwise, the episodes get proportionally longer and the performance of the three methods tends to differ more.
+<br>This MAZE environment offers an opportunity to compare the three TD methods across a vast design space as a function of reward assignments, cell fractions, epsilon, gamma, and alpha. When the impact of 'Holes' and 'Food' is low, either due to their low fraction or low absolute reward, the three methods behave comparably. Otherwise, the training episodes get proportionally longer and the performance of the three methods tends to differ more.
 
 To assist such investigations, the provided code offers several visualizations, e.g., average score vs. episodes: 
 
@@ -22,7 +22,7 @@ To assist such investigations, the provided code offers several visualizations, 
 <p align="center">
 <img src="https://github.com/user-attachments/assets/6c02f083-1098-4114-842e-9337ad6dbc37" alt="Example_trajectory" width="500"/>
 
-<br> Animation of Agent's moves for a specific episode before and after training (see 'images' folder for more GIF examples): 
+<br> Animation of Agent's moves for a specific episode before and after training (more GIF examples in 'images' folder): 
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/920d4330-ebeb-44e1-8cc8-751ddc0eaadd" alt="Expected SARSA_last_exp_episode_1" width="250" style="margin-right: 500">
