@@ -1,4 +1,4 @@
-Minimal implemention of [Tabular TD control](https://nbviewer.org/github/akrvrdr/NanoRL/blob/main/Tabular_TD_MAZE_solver.ipynb) using SARSA, Expected SARSA, and Q-Learning in a MAZE environment. 
+Minimal implemention of [Tabular TD control](https://nbviewer.org/github/u84819482/Nano-RL/blob/main/Tabular_TD_MAZE_solver.ipynb) using SARSA, Expected SARSA, and Q-Learning in a MAZE environment. 
 
 The TD control algorithms are based on Bellman equations. SARSA and Expected SARSA use a sample-based version of the Bellman equation and learn q_pi. Q-Learning uses the Bellman optimality equation and it learns q*. The three learning algorithms are shown below, by highlighting their targets.
 
